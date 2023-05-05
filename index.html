@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="John Doe">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+/* Below did have line-height: 75px and font-size: 30px */
+/* Did have background color #f1f1f1 */
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: calc(.5em + 1vw);
+}
+
+/* This does nothing? */
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: wrap;
+}
+</style>
+
+</head>
+<body>
+<h1>Exeter Courses</h1>
+
+<div class="flex-container">
+  <div class = "myDiv">
+     <h2>ANT 500</h2>
+     <p>Anthropology</p>
+  </div>
+  
+  <div class = "myDiv">
+     <h2>ANT 500</h2>
+     <p>Anthropology</p>
+  </div>
+  
+  <div class = "myDiv">
+     <h2>ANT 501</h2>
+     <p>Anthropology</p>
+  </div>
+  
+  <div class = "myDiv">
+     <h2>ANT 502</h2>
+     <p>Anthropology</p>
+  </div>
+  
+  <div class = "myDiv">
+     <h2>ANT 503</h2>
+     <p>Anthropology</p>
+  </div>
+  
+  <div class = "myDiv">
+     <h2>ANT 504</h2>
+     <p>Anthropology</p>
+  </div>
+  
+  <div class = "myDiv">
+     <h2>ANT 505</h2>
+     <p>Anthropology</p>
+  </div>
+  
+  <div class = "myDiv">
+     <h2>ANT 506</h2>
+     <p>Anthropology</p>
+  </div>
+  
+   <div class = "myDiv">
+     <h2>ANT 507</h2>
+     <p>Anthropology</p>
+  </div>
+  
+   <div class = "myDiv">
+     <h2>ANT 508</h2>
+     <p>Anthropology</p>
+  </div>
+  
+   <div class = "myDiv">
+     <h2>ANT 509</h2>
+     <p>Anthropology</p>
+  </div>
+  
+   <div class = "myDiv">
+     <h2>ANT 510</h2>
+     <p>Anthropology</p>
+  </div>
+  
+   <div class = "myDiv">
+     <h2>ANT 511</h2>
+     <p>Anthropology</p>
+  </div>
+
+</div>
+
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+</body>
+</html>
